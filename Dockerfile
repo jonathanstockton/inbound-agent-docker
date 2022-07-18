@@ -4,3 +4,4 @@ RUN apt-get update
 RUN apt-get install -y python3-pip python3-venv
 RUN apt-get clean
 USER jenkins
+SHELL ["/bin/bash", "-c"]
